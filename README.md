@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This unique, responsive site is built with HTML and CSS to showcase my work, skills, and contact information.
 
-## 🚀 Features
+## ✨ Features
 - Clean and minimal layout
 - Mobile-friendly design
 - Smooth fade-in animations
@@ -18,7 +18,7 @@ Welcome to my personal portfolio website! This unique, responsive site is built 
 - **Contact**: How to get in touch
 
 ## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
+This open-source project is available under the [MIT License](LICENSE).
 
 ---
 
