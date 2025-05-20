@@ -103,7 +103,7 @@ footer {
 }
 
 /* =========================
-   Animation
+   Animations
 ========================= */
 @keyframes fadeIn {
     0% {
@@ -118,7 +118,7 @@ footer {
 }
 
 /* =========================
-   Responsive Design
+   Responsive Designs
 ========================= */
 @media (max-width: 768px) {
     nav ul {
