@@ -11,15 +11,11 @@ Welcome to my personal portfolio website! This unique, responsive site is built 
 ## 🛠 Tech Stack
 - HTML5
 - CSS3 (with Google Fonts)
-
-## 📂 Sections
-- **About Me**: A short introduction
-- **Projects**: Highlights of my work
-- **Contact**: How to get in touch
+- JavaScript
 
 ## 📄 License
 This open-source project is available under the [MIT License](LICENSE).
 
 ---
 
-Thanks for checking it out!
+Thanks for checking it out!👍🏽
