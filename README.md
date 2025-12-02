@@ -1,21 +1,26 @@
-# My Portfolio Website
+# Portfolio Website
 
-Welcome to my personal portfolio website! This unique, responsive site is built with HTML and CSS to showcase my work, skills, and contact information.
+This is a modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
 
-## ✨ Features
-- Clean and minimal layout
-- Mobile-friendly design
-- Smooth fade-in animations
-- Easy to customize
+## Getting Started
 
-## 🛠 Tech Stack
-- HTML5
-- CSS3 (with Google Fonts)
-- JavaScript
+1.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-## 📄 License
-This open-source project is available under the [MIT License](LICENSE).
+2.  Start the development server:
+    ```bash
+    npm run dev
+    ```
 
----
+3.  Build for production:
+    ```bash
+    npm run build
+    ```
 
-Thanks for checking it out!👍🏽
+## Project Structure
+
+-   `src/components`: React components for different sections.
+-   `public/assets`: Static assets (images, videos).
+-   `src/index.css`: Global styles and Tailwind configuration.
