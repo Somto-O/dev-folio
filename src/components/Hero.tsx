@@ -18,10 +18,10 @@ const Hero: React.FC = () => {
             Software Developer
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl leading-loose font-light">
-            Third year CS student with expertise in low level programming. Open source contributor passionate about game development.
+            Fourth year Computer Science student with expertise in low level programming. Python RL developer passionate about game development.
           </p>
           <p className="text-lg text-gray-500 max-w-2xl leading-loose font-light mt-4">
-            Currently seeking winter 2026 co-op opportunities.
+            Currently seeking winter 2026 internship opportunities.
           </p>
         </motion.div>
 
@@ -38,8 +38,8 @@ const Hero: React.FC = () => {
           <a href="https://www.linkedin.com/in/somto-obidike-ikenna/" target="_blank" rel="noopener noreferrer" className="nav-link group text-sm font-semibold uppercase tracking-widest hover:text-accent text-gray-400 transition-colors">
             LinkedIn
           </a>
-           <a href="mailto:somtochukwujoachinob@cmail.carleton.ca" className="nav-link group text-sm font-semibold uppercase tracking-widest hover:text-accent text-gray-400 transition-colors">
-             Contact
+          <a href="mailto:somtochukwujoachinob@cmail.carleton.ca" className="nav-link group text-sm font-semibold uppercase tracking-widest hover:text-accent text-gray-400 transition-colors">
+            Contact
           </a>
         </motion.div>
       </div>
