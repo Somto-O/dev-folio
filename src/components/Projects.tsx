@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
       title: "TreatQuest",
       description: "Interactive grid-world game where a virtual pet learns to collect treats, avoid traps, and solve increasingly challenging levels using Q-Learning.",
       category: "AI / ML",
-      videoSrc: ""
+      videoSrc: "/assets/treatquest_video.mp4"
     },
     {
       title: "Distributed Task Queue",
