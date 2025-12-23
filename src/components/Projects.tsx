@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
       description: "A critical safety-critical medical device interface built with the Qt framework, featuring real-time monitoring and precise dosage control logic.",
       category: "Embedded Systems",
       // Placeholder video
-      videoSrc: "" 
+      videoSrc: ""
     },
     {
       title: "OpenGL-Cowboy",
@@ -18,8 +18,8 @@ const Projects: React.FC = () => {
     },
     // Placeholders to fill requirements
     {
-      title: "Neural Network Visualizer",
-      description: "Interactive visualization of gradient descent and backpropagation algorithms, demonstrating core ML concepts.",
+      title: "TreatQuest",
+      description: "Interactive grid-world game where a virtual pet learns to collect treats, avoid traps, and solve increasingly challenging levels using Q-Learning.",
       category: "AI / ML",
       videoSrc: ""
     },
@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
   return (
     <section id="projects" className="py-10">
       <div className="border-t border-white/10 mb-16"></div>
-      
+
       <div className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-white tracking-tight">Projects</h2>
       </div>
