@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             Software Developer
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl leading-loose font-light">
-            Fourth year Computer Science student with expertise in low level programming. Python RL developer passionate about game development.
+            👋🏽 4th year Computer Science student with strong foundation in C and C++. Had fun doing a project in reinforcement learning with Python. Passionate about game development.
           </p>
           <p className="text-lg text-gray-500 max-w-2xl leading-loose font-light mt-4">
             Currently seeking winter 2026 internship opportunities.

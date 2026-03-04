@@ -6,17 +6,15 @@ const Projects: React.FC = () => {
     {
       title: "Medical Device (Insulin Pump)",
       description: "A critical safety-critical medical device interface built with the Qt framework, featuring real-time monitoring and precise dosage control logic.",
-      category: "Embedded Systems",
-      // Placeholder video
+      category: "Qt",
       videoSrc: ""
     },
     {
       title: "OpenGL-Cowboy",
       description: "A high-performance 2D up-down shooter engine built from scratch using OpenGL and GLFW, demonstrating low-level graphics programming concepts.",
-      category: "Low Level",
+      category: "OpenGL",
       videoSrc: ""
     },
-    // Placeholders to fill requirements
     {
       title: "TreatQuest",
       description: "Interactive grid-world game where a virtual pet learns to collect treats, avoid traps, and solve increasingly challenging levels using Q-Learning.",
@@ -24,9 +22,9 @@ const Projects: React.FC = () => {
       videoSrc: "/assets/treatquest_video.mp4"
     },
     {
-      title: "Distributed Task Queue",
-      description: "A scalable background job processing system built with Go and Redis, handling concurrent task execution.",
-      category: "Full Stack",
+      title: "Price-Matching System",
+      description: "A self-hosted price-matching ecosystem on a private Linux-based server.",
+      category: "Full Stack | Embedded System",
       videoSrc: ""
     }
   ];

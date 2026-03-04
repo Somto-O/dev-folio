@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { GlowingEffect } from './ui/glowing-effect';
 
 interface ProjectCardProps {
   title: string;
@@ -10,40 +11,52 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, videoSrc, category }) => {
   return (
-    <motion.div 
+    <motion.div
       whileHover={{ y: -5 }}
-      className="group bg-surface rounded-xl overflow-hidden border border-white/5 hover:border-white/10 transition-all duration-300"
+      className="relative h-full"
     >
-      {/* Video Loop Container */}
-      <div className="relative h-48 w-full bg-black overflow-hidden">
-        {videoSrc ? (
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
-          >
-            <source src={videoSrc} type="video/mp4" />
-          </video>
-        ) : (
-          <div className="w-full h-full flex items-center justify-center bg-neutral-900 text-neutral-700">
-             <span className="text-xs uppercase tracking-widest">Preview Unavailable</span>
-          </div>
-        )}
-        <div className="absolute top-2 right-2 bg-accent/90 backdrop-blur-sm px-3 py-1 rounded-md text-xs font-semibold text-white shadow-sm">
+      <GlowingEffect
+        spread={40}
+        glow={true}
+        disabled={false}
+        proximity={64}
+        inactiveZone={0.01}
+        borderWidth={3}
+        className="rounded-xl"
+      />
+      <div className="relative h-full group bg-surface rounded-xl overflow-hidden border border-white/5 hover:border-white/10 transition-all duration-300">
+        {/* Video Loop Container */}
+        <div className="relative h-48 w-full bg-black overflow-hidden">
+          {videoSrc ? (
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+            >
+              <source src={videoSrc} type="video/mp4" />
+            </video>
+          ) : (
+            <div className="w-full h-full flex items-center justify-center bg-neutral-900 text-neutral-700">
+              <span className="text-xs uppercase tracking-widest">Preview Unavailable</span>
+            </div>
+          )}
+          <div className="absolute top-2 right-2 bg-accent/90 backdrop-blur-sm px-3 py-1 rounded-md text-xs font-semibold text-white shadow-sm">
             {category}
+          </div>
         </div>
-      </div>
 
-      {/* Content */}
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-white mb-2 group-hover:text-accent transition-colors">{title}</h3>
-        <p className="text-secondary text-sm leading-relaxed">{description}</p>
+        {/* Content */}
+        <div className="p-6">
+          <h3 className="text-xl font-bold text-white mb-2 group-hover:text-accent transition-colors">{title}</h3>
+          <p className="text-secondary text-sm leading-relaxed">{description}</p>
+        </div>
       </div>
     </motion.div>
   );
 };
 
 export default ProjectCard;
+
 
