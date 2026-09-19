@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
     {
       title: "Price-Matching System",
       description: "A self-hosted price-matching ecosystem on a private Linux-based server.",
-      category: "Full Stack | Embedded System",
+      category: "Full Stack | Distributed System",
       videoSrc: ""
     }
   ];
