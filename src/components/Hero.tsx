@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
             👋🏽 4th year Computer Science student with strong foundation in C and C++. Had fun doing a project in reinforcement learning with Python. Passionate about game development.
           </p>
           <p className="text-lg text-gray-500 max-w-2xl leading-loose font-light mt-4">
-            Currently seeking summer 2026 internship opportunities.
+            Currently seeking winter 2027 internship opportunities.
           </p>
         </motion.div>
 
