@@ -39,7 +39,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, videoSrc,
             </video>
           ) : (
             <div className="w-full h-full flex items-center justify-center bg-neutral-900 text-neutral-700">
-              <span className="text-xs uppercase tracking-widest">Preview Unavailable</span>
+              <span className="text-xs uppercase tracking-widest">Not really applicable..</span>
             </div>
           )}
           <div className="absolute top-2 right-2 bg-accent/90 backdrop-blur-sm px-3 py-1 rounded-md text-xs font-semibold text-white shadow-sm">
